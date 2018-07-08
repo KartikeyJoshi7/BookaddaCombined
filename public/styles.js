@@ -539,7 +539,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/kartikey/Desktop/Kartikey BooksAdda/bookFrontTest/src/styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! /home/kartikey/Desktop/ExitAssignment/Kartikey BookAdda/bookFrontTest/src/styles.css */"./src/styles.css");
 
 
 /***/ })
