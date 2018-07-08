@@ -16,7 +16,7 @@ app.use('/listing/add', express.static(path.join(__dirname, 'public'))) // For a
 app.use('/listing', express.static(path.join(__dirname, 'public'))) // For logo to refresh page. (Default)
 
 
-app.use('/uploads', express.static(path.join(__dirname, 'uploads'))) // For pictures
+app.use('/uploads', express.static('uploads')) // For pictures
 app.use('/api', require('./routes/api')) //Backend routes
 
 app.set('port',process.env.PORT || 7000)
