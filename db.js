@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 
-const db = new Sequelize('bookBuydb', 'buyer', 'buypass', {
-    host: 'localhost',
+const db = new Sequelize('heroku_64ced7b2cc639f3', 'b2a5181ee86794', 'f2122030', {
+    host: 'us-cdbr-iron-east-04.cleardb.net',
     dialect: 'mysql',
     pool: {
         min: 0,
